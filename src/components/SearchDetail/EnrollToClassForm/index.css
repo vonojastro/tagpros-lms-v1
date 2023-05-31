@@ -1,0 +1,32 @@
+#enroll-to-class > div {
+	display: grid;
+	margin-top: 1em;
+}
+
+#enroll-to-class > div input {
+	width: 20px;
+	height: 20px;
+}
+
+.line {
+	max-width: 100%!important;
+	border: auto;
+	width: 100%!important;         
+	margin: 0!important;
+  }
+/* overrides for css conflicts in new-age.css */
+
+input[name='learners']:checked,[name='learners']:not(:checked) {
+	position: inherit !important; 
+	left: inherit !important;
+	opacity: inherit !important;
+  }
+
+[name=learners]+label {
+	position: inherit !important;
+	padding-left: 0 !important;
+}
+
+[name=learners]+label:before{
+	visibility: hidden;
+}

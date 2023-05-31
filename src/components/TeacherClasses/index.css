@@ -1,0 +1,140 @@
+.attendance {
+    position: absolute;
+    background-color: white;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.attendance-table,
+.attendance-table th,
+.attendance-table td {
+    border: 1px solid lightgrey !important;
+    border-collapse: collapse;
+}
+
+.attendance-table th {
+    text-align: center;
+}
+
+.session-disabled {
+    color: #67757c !important;
+    background-color: #d3d3d399 !important;
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.attendance-checked {
+    background: #008000a6 !important;
+}
+
+.inactive-session {
+    color: rgba(0, 0, 0, .26) !important;
+    background: rgba(0, 0, 0, .12) !important;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.module-nav .nav-container {
+    border-right: 1px solid #dee2e6;
+    padding-right: 0;
+}
+
+.module-nav .nav-link.active {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.class-info {
+    width: 90px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.classlink {
+    padding-top: 2px;
+}
+
+.tooltip-mobile {
+    display: none;
+    width: 100%;
+}
+
+.text-mobile {
+    font-size: 0.6rem;
+    padding-top: 1px;
+}
+
+.tooltip-1 {
+    position: relative;
+
+    cursor: pointer;
+    font-size: 0.8rem;
+    z-index: 2;
+}
+
+.tooltip-1 .tooltiptext {
+    visibility: hidden;
+    width: 260px;
+    background-color: #64A6DA;
+    color: #fff;
+    z-index: 1;
+    border-radius: 2px;
+    padding: 5px 6px;
+    font-size: 0.6rem;
+    /* Position the tooltip */
+    position: absolute;
+    top: -120%;
+    left: 180%;
+
+    opacity: 0;
+
+    transition: 0.2s all ease-in-out;
+}
+
+.tooltip-container {
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    left: -3%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 16px solid #64A6DA;
+}
+
+.tooltip-1:hover .tooltiptext {
+    visibility: visible;
+    opacity: 100;
+}
+
+
+.icon-mobile {
+    margin-right: 4px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .tooltip-mobile {
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .classlink-icon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .tooltip-1 {
+        display: none;
+    }
+}

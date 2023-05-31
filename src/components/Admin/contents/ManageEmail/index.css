@@ -1,0 +1,20 @@
+.modal-label {
+    font-size: 12px;
+}
+
+.quill .ql-container{
+    min-height: 200px;
+}
+
+.button-fab button{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100;
+    border-radius: 50%;
+    padding: 20px 25px;
+}
+
+.button-fab i {
+    font-size: 25px;
+}

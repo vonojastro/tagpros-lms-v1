@@ -1,0 +1,9 @@
+.upload-icon {
+    position: relative;
+    bottom: -60px;
+    left: -50px;
+    /* display: inline-block; */
+    background: #d3d3d3e8;
+    /* color: black; */
+    border-radius: 100%
+}

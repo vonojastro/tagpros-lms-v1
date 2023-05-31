@@ -1,0 +1,8 @@
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff !important;
+    opacity: 0.5;
+}
+
+span.lbl {
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+.cart .footer{
+    position: fixed;
+    z-index: 2147483650;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    box-shadow: 18px 18px 18px 18px lightgrey;
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.cart .price{
+    color: #624edf;
+    font-size: 25px;
+}
+
+.cart .footer button {
+    width: 250px
+}
+
+.cart .footer label {
+    font-size: 18px;
+}
+
+.cart [type=checkbox]+label:before, [type=checkbox]:not(.filled-in)+label:after{
+    border-color: #5c4ac7
+}
+
+.cart [type=checkbox]:checked+label:before {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.cart [type=checkbox]:checked+label:before{
+    border-right: 3px solid green;
+    border-bottom: 3px solid green
+}

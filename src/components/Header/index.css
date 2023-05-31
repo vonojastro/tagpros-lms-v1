@@ -1,0 +1,11 @@
+.shadow-bottom {
+box-shadow: 1px 7px 30px -4px rgba(0,0,0,0.54);
+-webkit-box-shadow: 1px 7px 30px -4px rgba(0,0,0,0.54);
+-moz-box-shadow: 1px 7px 30px -4px rgba(0,0,0,0.54);
+}
+
+.shadow-bottom > .logo {
+   padding:20px;
+   height:auto;
+   width: 250px;
+}

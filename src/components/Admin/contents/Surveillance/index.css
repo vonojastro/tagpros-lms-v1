@@ -1,0 +1,57 @@
+#surveillance-nav-pills .btn-outline-info:not(:disabled):not(.disabled).active, .btn-outline-info:hover {
+    color: #fff !important;
+    background-color: #26dad2;
+    border: 1px solid #26dad2 !important;
+}
+
+#surveillance-nav-pills .btn-outline-info{
+    color: #607d8b;
+    border: 1px solid #607d8b;
+}
+
+.fc-daygrid-event{
+    background: '#117bff' !important;
+}
+
+#completed-classes .fc-monthSelect-button, .fc-yearSelect-button{
+    background: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+}
+
+#completed-classes .fc-monthSelect-button select{
+    text-align: center;
+    width: 250px;
+}
+
+#completed-classes .fc-yearSelect-button select{
+    text-align: center;
+    width: 150px;
+}
+
+.surveillance .breadcrumb .breadcrumb-item+.breadcrumb-item:before {
+    content: "\e649";
+    font-family: themify;
+    color: #a6b7bf;
+    font-size: 11px;
+}
+
+.surveillance .breadcrumb .breadcrumb-item+.breadcrumb-item.active>span{
+    text-decoration: underline;
+}
+
+#surveillance-module .table thead th{
+    vertical-align: middle;
+}
+
+.breadcrumb-item[role=button]{
+    color: #007bff;
+}
+
+#surveillance-nav-pills a.btn.disabled{
+    color: #fff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    opacity: .35 !important;
+}

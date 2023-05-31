@@ -1,0 +1,19 @@
+.scroll-sidebar {
+  overflow-y: auto !important;
+}
+
+.user-profile .profile-img img {
+  height: 70px;
+}
+
+.mini-sidebar .user-profile .profile-img img {
+  height: 50px;
+}
+
+.mini-sidebar nav > ul > li > a > i {
+  margin-right: 2rem !important;
+}
+
+#parent {
+  height: unset !important;
+}

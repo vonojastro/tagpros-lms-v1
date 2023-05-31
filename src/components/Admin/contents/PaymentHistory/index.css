@@ -1,0 +1,48 @@
+.fas.fa-caret-down{
+    font-size: 25px;
+}
+
+.fas.fa-caret-right{
+    font-size: 25px;
+}
+
+td {
+    font-size: 14px;
+}
+
+td:first-child { 
+    vertical-align: middle; 
+}
+
+.expand-body .header{
+    border-bottom: 1px rgba(128, 128, 128, 0.33) solid;
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+}
+
+.expand-body h5{
+    margin-bottom: 0;
+}
+
+.expand-body .history{
+    margin-top: 20px;
+    max-height: 300px;
+    overflow: auto;
+    padding-right: 20px;
+    /* direction:rtl; */
+}
+
+.left-aside{
+    position: inherit !important;
+    margin-left: 15px !important;
+    height: auto !important;
+}
+
+.right-aside{
+    margin-right: 15px !important;
+    margin-left: 0px !important;
+}
+
+.right-aside.col{
+    margin-left: 15px !important;
+}

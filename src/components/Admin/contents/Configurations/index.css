@@ -1,0 +1,43 @@
+#configurations #access thead, tbody > tr > th{
+    background: #455a64cb;
+    color: white;
+    text-align: center;
+}
+
+#configurations #access th{
+    padding: 15px 0;
+    border: 0.5px solid rgba(255, 255, 255, 0.535);
+}
+
+#configurations #access thead th:first-child{
+    width: 25%;
+}
+
+#configurations #access td{
+    padding: 0;
+}
+/* #configurations #access td > .dropdown{
+    margin: 5px 0;
+} */
+
+#configurations #access td > .dropdown > button{
+    width: 100%;
+    /* text-align: end; */
+}
+
+#configurations #access .dropdown-toggle::after{
+    float: right;
+    margin-top: 7px;
+}
+
+/* #configurations #access .dropdown-item {
+    text-align: center;
+} */
+
+#configurations #access .access-value > div{
+    text-align: center;
+}
+
+#configurations #access .access-value{
+    vertical-align: middle;
+}

@@ -1,0 +1,26 @@
+.tagpi-container img {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; */
+    width: 18vw;
+}
+
+.tagpi-container span{
+    text-align: center;
+}
+
+.tagpi-container button{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tagpi-container span{
+    max-width: 90%;
+}
+
+.tagpi-container .spinner-border{
+    display: inline-block;
+    margin-right: 10px;
+    color: #116dc9;
+}

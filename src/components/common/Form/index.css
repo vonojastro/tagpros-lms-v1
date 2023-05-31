@@ -1,0 +1,116 @@
+select {
+  /* width: 100%; */
+  padding: 4px;
+  padding-bottom: 10px;
+  border-color: transparent;
+  color: inherit;
+  background: #f2f2f2;
+  font-size: 1rem;
+}
+.image-input {
+  background: gainsboro;
+  border-radius: 5%;
+  /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcsbible.com%2Fwp-content%2Fuploads%2F2016%2F08%2Fsquare-child.jpg&f=1&nofb=1); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+}
+.image-input__error {
+  transition: 0.3s ease-in-out;
+  border: solid rgb(245, 156, 30) 1px;
+}
+.image-input__container {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 40px;
+  height: 300px;
+  max-width: 300px;
+}
+.image-input__helper-text:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 0.5;
+}
+.image-input__helper-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+
+  transform: translate(
+    -50%,
+    -50%
+  ); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+  font-weight: bold;
+  cursor: pointer;
+  background: white;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+/* .image-input:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 0.2;
+} */
+.image-input--hover__text {
+  transition: 0.3s ease-in-out;
+}
+
+div.autocomplete .suggestions {
+  width: 100%;
+  background: white;
+  position: relative;
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  /* border: 1px rgb(179, 175, 175) solid;
+  border-top: none; */
+  box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f;
+  /* margin-top: 3px; */
+}
+
+div.autocomplete .timepicker {
+  width: 250px;
+  background: white;
+  position: relative;
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  /* border: 1px rgb(179, 175, 175) solid;
+  border-top: none; */
+  box-shadow: 0 2px 4px -1px #0003,0 4px 5px #00000024,0 1px 10px #0000001f;
+  /* margin-top: 3px; */
+}
+
+.autocomplete .suggestions p{
+  font-size: 16px;
+  padding: 8px 8px;
+  margin-bottom: 0;
+}
+
+.autocomplete .suggestions, .timepicker span{
+  display: block;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.autocomplete .suggestions p:hover{
+  background: blanchedalmond;
+}
+
+.autocomplete .timepicker .selection{
+  border-right:2px #80808045 solid;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.autocomplete .timepicker .selected{
+  background: #1876d2;
+  color: white;
+}

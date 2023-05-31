@@ -1,0 +1,41 @@
+td {
+    font-size: 13px;
+}
+
+th {
+    font-size: 14px;
+}
+
+.table .p-2, select{
+    font-size: 15px;
+}
+
+li {
+    font-size: 15px;
+}
+
+.loading-text {
+    font-size: 12px;
+    color: gray;
+    padding-top: 20px;
+}
+
+.data-loading {
+    margin: 60px;
+}
+
+.no-data {
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+    margin: 70px;
+}
+
+.btn-load {
+    margin: 0 5px 4px 0
+}
+
+.alert-warning {
+    margin-left: 20px;
+    margin-right: 20px;
+}

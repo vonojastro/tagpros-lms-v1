@@ -1,0 +1,13 @@
+.learners__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+  grid-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.profile-pic {
+  border-radius: 100%;
+}
+.learners__learner__nickname:hover {
+  color: #00897b;
+}

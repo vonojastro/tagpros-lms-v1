@@ -1,0 +1,12 @@
+.button-fab button{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 100;
+    border-radius: 50%;
+    padding: 20px 25px;
+}
+
+.button-fab i {
+    font-size: 25px;
+}

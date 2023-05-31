@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "baseUrl": "src" },
+  "exclude": ["node_modules", "build","public",".git",".vscode","dist","yarn.lock","yarn-error.log","README.md",".prettierrc","package.json",".nvmrc","netlify.toml","jsconfig.json",".gitignore",".env.example",".env","craco.config.js"]
+}

@@ -1,0 +1,13 @@
+.user-profile .profile-img img{
+    height: 70px;
+}
+
+.mini-sidebar .user-profile .profile-img img {
+    height: 50px;
+}
+.h-full{
+    height: 100%;
+}
+#sidebarnav-sdl{
+    padding: 0 0 70px 0;
+}

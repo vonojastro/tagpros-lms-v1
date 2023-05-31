@@ -1,0 +1,27 @@
+.mailbox .message-center > div {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    display: block;
+    text-decoration: none;
+    padding: 9px 15px;
+}
+
+.mail-desc, .mailbox .message-center div .mail-contnet .time {
+    font-size: 12px;
+    display: block;
+    margin: 1px 0;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #67757c;
+    white-space: nowrap;
+}
+
+.mailbox .message-center div .mail-contnet h5 {
+    margin: 5px 0px 0;
+}
+
+@media only screen and (max-width: 1168px) {
+.hide-mobile {
+    display: none;
+}
+}

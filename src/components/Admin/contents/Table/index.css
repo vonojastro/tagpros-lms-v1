@@ -1,0 +1,30 @@
+.icon-sort {
+    color: #8080807a;
+    bottom: 3px;
+}
+
+.error {
+    font-style:normal !important;
+}
+
+.tesst{
+    /* overflow: auto; */
+    white-space: nowrap;
+    position: relative;
+    /* cursor: pointer; */
+}
+
+.table-height-400px{
+    min-height: 400px;
+}
+.search-button{
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+.search-button:hover{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}

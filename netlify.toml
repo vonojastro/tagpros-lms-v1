@@ -1,0 +1,10 @@
+[[headers]]
+for = "/*"
+  [headers.values]
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  X-Content-Type-Options = "nosniff"
+  Content-Security-Policy = '''
+    object-src 'none';
+    frame-src https://www.sandbox.paypal.com https://www.paypal.com https://www.google.com https://www.youtube.com https://app.netlify.com/ https://tagprosbucket.s3-ap-southeast-1.amazonaws.com/ https://meet.jit.si/ https://meet.jit.si https://jitsi-dev.tagpros.us/ https://jitsi-dev.tagpros.us https://accounts.google.com/;
+  '''

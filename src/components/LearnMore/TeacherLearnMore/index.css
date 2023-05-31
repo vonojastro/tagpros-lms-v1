@@ -1,0 +1,156 @@
+    h1.dark-text, h3.dark-text, .dark-text{
+        color: black!important;
+    }
+
+    .icon-teacher{
+    color:rgb(0, 171, 219);
+    }
+    
+    .border{
+    height: 1px!important;
+    width: 60%!important;
+    color: rgb(90, 90, 90);
+    background-color: rgb(90, 90, 90);
+    }
+    
+    .dot{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(59, 59, 59);
+    }
+    
+    .section{
+        margin-top: -100px!important;
+    }
+    
+    .more-info.teacher{
+    background-image : linear-gradient(rgba(83, 127, 192, 0.884), rgba(82, 126, 167, 0.705)), url('../../../img/teacher.png')!important;  
+    background-size: cover!important;
+    background-position: center!important;     
+    }
+
+    .images{
+        height: 400px!important;
+        width: 510px!important;
+    }
+
+    .question{
+        background-color: rgb(247, 247, 247);
+        border-left: solid red 3px!important;
+        width: 85%;
+    }
+
+    .answer-teacher{
+        background-color: rgb(255, 255, 255);
+        border-left: solid rgb(143, 143, 143) 3px!important; 
+        width: 85%;
+    }
+
+    h2.question-head{
+        color: red!important;
+    }
+
+    h2.answer-head{
+        color: rgb(143, 143, 143)!important;
+    }
+
+    .header-image.teacher3{
+        width:250px!important;
+    }
+
+    .teacher-accordion{
+        width: 75%!important;
+    }
+    
+    .teacher-card{
+        border-bottom: solid black 0.5px;
+    }
+
+    .landing-dropdown{
+        margin-top: 8px;
+        color: rgb(20, 20, 20)!important;
+        font-size: 15px;
+    }
+    
+    .teacher1{
+        margin-top: 80px!important;
+    }
+    
+    .faq-teacher > li{
+        font-size: 1em!important;
+    }
+
+    .req-teacher> li{
+        font-size: 18px!important;
+    }
+
+    .orange-teacher{
+        background-color: #F8D90F!important;
+        border-radius: 15px;
+    }
+
+    .element-radius{
+        border-radius: 15px;
+    }
+
+    .teacher-sign-up{
+        padding-right: 80px;
+    }
+
+
+
+    @media (max-width: 1200px) {
+        .question, .answer-teacher{
+            width: 100%!important;
+        }
+
+        .icon, .landing1{
+            display: flex!important;
+            align-items: center!important;
+            justify-content: center!important;
+        }
+
+        .landing-join, .landing-image{
+            display: flex!important;
+            align-items: center!important;
+            justify-content: center!important;
+            margin-left: 0!important;
+        }
+
+        .landing1{
+           width: 350px!important;
+        }
+
+        .image.aldine{
+            width: 200px!important;
+        }
+
+        .responsive-head{
+            margin-left: 25px!important;
+        }
+
+        .teacher-sign-up{
+            justify-content: center!important;
+        }
+
+        .image2-visiting{
+            margin-left: 0!important;
+        }
+
+        .p-us1{
+            margin-left: 80px;
+        }
+
+        .p-us2{
+            margin-right:50px;
+        }
+
+
+        
+        
+    
+
+    }
+    
+    
+    

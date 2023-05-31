@@ -1,0 +1,108 @@
+.msg-container{
+	bottom: 80px;
+	position: absolute;
+	width: 95%;
+	max-height: 70%;
+	overflow: auto;
+}
+
+.msg-container i {
+	color: darkorange;
+}
+
+.msg-container a > i {
+	color: white !important;
+	text-decoration: underline;
+}
+
+.msg-active{
+	border: #80808021 solid 1px;
+	background: whitesmoke;
+	border-radius: 15px;
+}
+
+.speech-bubble-1, .speech-bubble-2 {
+	position: relative;
+	border-radius: .4em;
+    padding: 8px;
+    display: inline;
+	width: fit-content;
+	max-width: 70%;
+	white-space: normal;
+}
+
+.speech-bubble-1.right, .speech-bubble-2.right {
+	background: #1876d2;
+    color: white;
+    margin-right: 10px;
+	margin-left: 5px;
+}
+
+.learner .speech-bubble-1.right, .learner .speech-bubble-2.right{
+	background: #7460ef
+}
+
+.speech-bubble-1.failed, .speech-bubble-2.failed,
+.speech-bubble-1.pending, .speech-bubble-2.pending  {
+	color:rgba(0,0,0,.26) !important;
+	background: lightgray !important
+}
+
+.msg-row img, .msg-row img {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.speech-bubble-2.right {
+	border-top-right-radius: 0;
+	margin-right: 85px;
+}
+
+.speech-bubble-1.left, .speech-bubble-2.left {
+	background: #02bec9;
+    color: black;
+    margin-left: 20px;
+	margin-right: 5px;
+}
+
+.speech-bubble-2.left {
+	border-top-left-radius: 0;
+	margin-left: 80px;
+}
+
+.speech-bubble-1:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	/* border-top: 0; */
+	margin-top: -20px;
+}
+
+.speech-bubble-1.right.failed:after, .speech-bubble-1.right.pending:after{
+	border-left-color: lightgray !important;
+}
+
+.speech-bubble-1.right:after {
+    border-left-color: #1876d2;
+	right: 0;
+	border-right: 0;
+	margin-right: -15px;
+}
+
+.learner .speech-bubble-1.right:after{
+	border-left-color: #7460ef
+}
+
+.speech-bubble-1.left:after {
+	border-right-color: #02bec9;
+	left: 0;
+	border-left: 0;
+	margin-left: -15px;
+}
+
+.autocomplete{
+	width: 95%;
+}

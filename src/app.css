@@ -1,0 +1,9 @@
+.admin-table-total{
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.admin-table-total h5{
+  margin: 0 20px 0 0;
+}
